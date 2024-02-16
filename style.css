@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 20px 40px;
+}
+#main::-webkit-scrollbar{
+    display: none;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#nav img{
+    height: 50px;
+    margin-right: 150px;
+}
+#nav h3{
+    margin-left: 20px;
+    font-weight: 500;
+}
+#nav input{
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#icons i{
+    font-size: 25px;
+    margin: 5px;
+}
+#all-shoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+#all-shoes h2,h4{
+    font-weight: 500;
+}
+#filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#filter i{
+    margin-right: 8px;
+}
+#shoes-box{
+    width: 100%;
+}
+.elem{
+    height: 270px;
+    width: 180px;
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.3);
+    margin: 14px;
+}
+.elem img{
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.elem h5{
+    color: red;
+}
